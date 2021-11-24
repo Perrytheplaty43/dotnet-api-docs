@@ -112,6 +112,7 @@ A <xref:System.Boolean> instance can have either of two values: `true` or `false
 
  :::code language="csharp" source="~/samples/snippets/csharp/VS_Snippets_CLR_System/system.boolean.structure/cs/tostring1.cs" interactive="try-dotnet" id="Snippet3":::
  :::code language="vb" source="~/samples/snippets/visualbasic/VS_Snippets_CLR_System/system.boolean.structure/vb/tostring1.vb" id="Snippet3":::
+ :::code language="fsharp" source="~/samples/snippets/fsharp/VS_Snippets_CLR_System/system.boolean.structure/fs/tostring1.fs" id="Snippet3":::
 
  Because the <xref:System.Boolean> structure can have only two values, it is easy to add custom formatting. For simple custom formatting in which other string literals are substituted for "True" and "False", you can use any conditional evaluation feature supported by your language, such as the [conditional operator](/dotnet/csharp/language-reference/operators/conditional-operator) in C# or the [If operator](/dotnet/visual-basic/language-reference/operators/if-operator) in Visual Basic. The following example uses this technique to format <xref:System.Boolean> values as "Yes" and "No" rather than "True" and "False".
 
